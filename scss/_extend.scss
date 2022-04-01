@@ -1,0 +1,25 @@
+@mixin cosas {
+    font-size: medium;
+    text-decoration: solid;
+    font-style:italic;
+    text-transform:uppercase;
+  }
+$text:(paddbo:20%,
+paddtop:10%,
+bord:90%,
+coloruno:aqua,
+colordos:greenyellow,
+colortres:chocolate,
+mayus:uppercase);
+
+%disposicion{text-align: center;
+  padding-bottom:map-get($text,paddbo);
+  padding-top: 10%;
+  font-weight: bolder;
+  font-size: xx-large;
+  text-transform: uppercase;
+  text-decoration:underline;}
+
+
+
+

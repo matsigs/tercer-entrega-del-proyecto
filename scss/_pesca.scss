@@ -1,0 +1,14 @@
+.logopesca{border-radius: 50%;display: flex;
+    text-align: center;}
+    
+    .logopescauno{border-radius:map-get($text,bord);margin-bottom: 5%;margin-top: 10%;}
+    
+    .logop{text-align: center;}
+    
+    
+    h1{@extend %disposicion}
+
+    .ventas{@include cosas;
+    .mayor {padding-right: 20%;}};
+    
+ 
